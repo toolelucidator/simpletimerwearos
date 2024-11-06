@@ -85,7 +85,7 @@ fun WearApp() {
             ) {
                 item {Timer(
                     totalTime = 100L * 1000L,
-                    handleColor = Color.Green,
+                    handleColor = Color.Blue,
                     inactiveBarColor = Color.DarkGray,
                     activeBarColor = Color(0xFF37B900),
 
