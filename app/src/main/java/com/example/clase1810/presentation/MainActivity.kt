@@ -84,8 +84,9 @@ fun WearApp() {
                 userScrollEnabled = false
             ) {
                 item {Timer(
-                    totalTime = 1000L * 1000L,
-                    handleColor = Color.Green,
+                    totalTime = 100L * 1000L,
+                    handleColor = Color.Blue,
+
                     inactiveBarColor = Color.DarkGray,
                     activeBarColor = Color(0xFF37B900),
 
